@@ -1,0 +1,7 @@
+configparser
+requests
+smtplib
+urllib3
+feedparser
+pygsheets
+pandas

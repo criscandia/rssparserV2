@@ -1,24 +1,32 @@
-# rssparserV2
-New version for RssJobFinder
+# Job Search RSS Scraper
 
-Job RSS Feed Scraper
-This is a Python application designed to help find job postings by scraping RSS feeds.
+This is a Python application that helps you find job openings by scraping RSS feeds. 
 
-Usage
-To use the application, run the following command in your terminal:
+## Usage
 
-bash
-Copy code
-python rssparser.py -F <url_feed>
-Replace <url_feed> with the URL of the RSS feed you want to scrape.
+To use this application, run the `rssparser.py` script and pass in the URL of the RSS feed you want to scrape:
 
-Libraries used
-The following Python libraries were used in the development of this application:
+usage: rssparser.py -F URL
 
-feedparser
-pandas
-pygsheets
-smtplib
-configparser
-Contact
-For any questions or feedback, please feel free to contact the author of this application at candiacristian@gmail.com
+
+## Requirements
+
+This application requires the following Python libraries to be installed:
+
+- `feedparser`
+- `pygsheets`
+- `pandas`
+
+You can install them using pip:
+
+pip install feedparser pygsheets pandas
+
+
+## License
+
+This application is licensed under the MIT License. See `LICENSE` for more information.
+You can customize this template to fit your needs.
+
+
+
+
